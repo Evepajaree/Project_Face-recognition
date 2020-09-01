@@ -1,5 +1,4 @@
 import cv2  
-import matplotlib.pyplot as plt
 
 face_cascade = cv2.CascadeClassifier('face_detector.xml') 
 
@@ -8,7 +7,6 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
   
 # capture frames from a camera 
 cap = cv2.VideoCapture(0) 
-  
 # loop runs if capturing has been initialized. 
 while 1:  
   
